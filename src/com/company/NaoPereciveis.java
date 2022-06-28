@@ -11,7 +11,8 @@ public class NaoPereciveis extends Produto{
         this.tipo = tipo;
     }
 
-    public NaoPereciveis(String tipo) {
+    public NaoPereciveis(String nome, double preco, String tipo) {
+        super(nome, preco);
         this.tipo = tipo;
     }
 
